@@ -1,0 +1,42 @@
+{
+  "name": "ts_crud_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.21.2",
+    "inversify": "^6.2.2",
+    "inversify-express-utils": "^6.4.10",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "@types/sequelize": "^4.28.20",
+    "@types/sinon": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.23.0",
+    "@typescript-eslint/parser": "^8.23.0",
+    "chai": "^5.1.2",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "mocha": "^10.8.2",
+    "prettier": "^3.4.2",
+    "sinon": "^19.0.2",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
