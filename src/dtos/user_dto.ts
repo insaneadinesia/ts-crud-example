@@ -1,4 +1,4 @@
-interface CreateUserDTO {
+interface CreateUpdateUserDTO {
   name: string;
   email: string;
 }
@@ -11,4 +11,4 @@ interface UserResponseDTO {
   updated_at: Date;
 }
 
-export { CreateUserDTO, UserResponseDTO };
+export { CreateUpdateUserDTO, UserResponseDTO };
